@@ -21,6 +21,6 @@ You can learn more about the course here:
 
 
 ## A meme that captures how I currently feel about my university studies is 
-![Sick cat meme](https://media.tenor.com/0V3fZsc6E8gAAAAC/sick-cat.gif)
+![Garbage mood GIF](https://media.giphy.com/media/TxMJMAjr0jNFVzd4Xn/giphy.gif)
 
 
