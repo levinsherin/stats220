@@ -18,4 +18,6 @@ You can learn more about the course here:
 [STATS 220 Course Page](https://courseoutline.auckland.ac.nz/dco/course/STATS/220)
 
 
-A meme that captures how I currently feel about my university studies is ![](https://tenor.com/en-GB/view/feeling-sick-bunny-schneiderman-mid-century-modern-using-an-ice-pack-mcm-gif-17591710334926915933)
+A meme that captures how I currently feel about my university studies is 
+
+![Studying meme](https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif)
