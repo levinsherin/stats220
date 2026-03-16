@@ -14,6 +14,8 @@ Why I am taking STATS 220
 2. To improve my **coding skills**
 3. To understand how data can be used in **scientific research**
 
+# useful link
+
 You can learn more about the course here:  
 [STATS 220 Course Page](https://courseoutline.auckland.ac.nz/dco/course/STATS/220)
 
