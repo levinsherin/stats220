@@ -22,4 +22,4 @@ You can learn more about the course here:
 
 ## A meme that captures how I currently feel about my university studies is 
 
-![Studying meme]([https://media.giphy.com/media/l0HlBO7eyXzSZkJri/giphy.gif](https://tenor.com/en-GB/view/jerma-sick-suffering-dying-dark-gif-11390836476515696538))
+[Jerma suffering meme](https://tenor.com/en-GB/view/jerma-sick-suffering-dying-dark-gif-11390836476515696538)
