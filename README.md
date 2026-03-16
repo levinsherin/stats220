@@ -22,4 +22,4 @@ You can learn more about the course here:
 
 ## A meme that captures how I currently feel about my university studies is 
 
-![Sick cat meme](https://media.tenor.com/9z3p9ZgK7F8AAAAC/sick-cat-calling-out.gif)
+[![Sick cat meme](https://media.tenor.com/9z3p9ZgK7F8AAAAC/sick-cat-calling-out.gif)](https://tenor.com/en-GB/view/sick-cat-calling-out-sick-ill-gif-5793807697388628443)
