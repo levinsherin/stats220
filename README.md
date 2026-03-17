@@ -19,6 +19,9 @@ This is my repo for _STATS 220_
 You can learn more about the course here:  
 [STATS 220 Course Page](https://courseoutline.auckland.ac.nz/dco/course/STATS/220)
 
+Bored reading this? Click the link:
+[Bored button page](https://www.boredbutton.com/ )
+
 
 ## A meme that captures how I currently feel about my university studies is 
 ![Garbage mood GIF](https://media.giphy.com/media/TxMJMAjr0jNFVzd4Xn/giphy.gif)
