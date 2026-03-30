@@ -1,0 +1,88 @@
+---
+title: My dynamic report
+output: html_fragment
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=FALSE, message=FALSE, warning=FALSE, error=FALSE)
+
+library(tidyverse)
+
+logged_data <- read_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vQsPEvBKbuqYGGlAs8vcq3PikMOvTA2YStG3lrxiwO8IeUbI0TTM-wqtWhTgZtOIKvJOd3fC7kE3EpP/pub?output=csv")
+
+latest_data <- logged_data %>%
+  rename(
+    ad_length = 2,
+    device = 3,
+    video_category = 4,
+    ad_category = 5,
+    interest = 6,
+    relatedness = 7
+  ) %>%
+  filter(
+    !is.na(ad_length),
+    !is.na(ad_category),
+    !is.na(interest),
+    !is.na(relatedness)
+  )
+
+
+num_responses <- latest_data$ad_length %>% length()
+
+mean_ad_length <- latest_data$ad_length %>%
+  mean(na.rm = TRUE) %>% round(1)
+
+min_ad_length <- latest_data$ad_length %>% min(na.rm = TRUE)
+
+max_ad_length <- latest_data$ad_length %>% max(na.rm = TRUE)
+```
+
+```{css}
+body {font-family: Arial, sans-serif;
+  padding: 20px;}
+
+h2 {color: #1f4e79;}
+
+```
+
+## Are YouTube ads actually relevant?
+
+This dynamic report analyses responses collected from a Google Form about YouTube in-video ads.
+
+The data looks at ad length, the device used to watch YouTube, and the category of the video being watched.
+
+The number of responses collected so far is `r num_responses`.
+
+The mean ad length is `r mean_ad_length` seconds.
+
+The shortest ad length recorded is `r min_ad_length` seconds.
+
+The longest ad length recorded is `r max_ad_length` seconds.
+
+```{r}
+#Were users interested in the ads?
+
+latest_data %>%
+   ggplot() +
+  geom_bar(aes(x = interest)) +
+  labs(title = "Interest in ads",
+    x = "Interest",
+    y = "Count")
+```
+
+```{r}
+
+#How related were the ads to the videos?
+latest_data %>%
+  ggplot() +
+  geom_bar(aes(x = relatedness)) +
+  labs(title = "Ad relatedness to video", x = "Relatedness", y = "Count")
+```
+
+```{r}
+#What types of ads are being shown?
+latest_data %>%
+  ggplot() +
+  geom_bar(aes(x = ad_category)) +
+  labs( title = "Ad categories", x = "Ad category",  y = "Count")
+
