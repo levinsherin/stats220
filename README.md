@@ -22,8 +22,3 @@ You can learn more about the course here:
 Bored reading this? Click the link:
 [Bored button page](https://www.boredbutton.com/ )
 
-
-## A meme that captures how I currently feel about my university studies is 
-![Garbage mood GIF](https://media.tenor.com/images/42c3d0cb89758e57eeed4aa3db8805f7/tenor.gif)
-
-
