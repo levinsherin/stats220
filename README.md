@@ -24,6 +24,6 @@ Bored reading this? Click the link:
 
 
 ## A meme that captures how I currently feel about my university studies is 
-![Garbage mood GIF](https://media.giphy.com/media/TxMJMAjr0jNFVzd4Xn/giphy.gif)
+![Oh no]([https://media.giphy.com/media/TxMJMAjr0jNFVzd4Xn/giphy.gif](https://tenor.com/bbl0b.gif))
 
 
